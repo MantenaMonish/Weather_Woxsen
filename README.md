@@ -1,4 +1,4 @@
-# Weather Temperature Forecasting Using ML & Time Series Models
+# Woxsen Temperature Forecasting Using ML & Time Series Models
 
 This project focuses on **accurate temperature prediction** using high-frequency weather station data collected every 15 minutes for six months at our university campus. By combining traditional time series methods and state-of-the-art deep learning models, we demonstrate how machine learning can significantly improve short-term weather forecasting accuracy.
 
