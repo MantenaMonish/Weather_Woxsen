@@ -14,15 +14,6 @@ This study implements multiple models to predict temperature values with high pr
 
 ## Models Implemented
 
-| Model                    | MAPE (%) | RMSE    | MAE    | R² Score |
-|-------------------------|----------|---------|--------|----------|
-| **LSTM**                | 12.33    | 0.0907  | 0.0468 | 0.9570   |
-| **Bidirectional LSTM**  | 13.63    | 0.0923  | 0.0506 | 0.9556   |
-| **Tuned GRU**           | 14.77    | 0.0950  | 0.0487 | 0.9593   |
-| **Auto ARIMA**          | 14.87    | 0.0952  | 0.0471 | 0.9503   |
-| **Random Forest Regressor** | 17.25 | 0.1039  | 0.0626 | 0.9512   |
-
-### Techniques Used:
 - **Auto ARIMA**: Dynamic parameter tuning for time series stationarity.
 - **LSTM & Bi-LSTM**: Deep learning models to capture sequential patterns.
 - **GRU**: A lighter, faster RNN variant optimized via hyperparameter tuning.
